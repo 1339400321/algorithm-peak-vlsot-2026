@@ -1,4 +1,4 @@
-# 算法之颠：VLSOT 自动端到端跟踪
+算法之颠：VLSOT 自动端到端跟踪
 
 2026 VLP 挑战赛参赛作品。
 
@@ -43,4 +43,8 @@ python auto_infer.py `
 
 ## 权重与许可证
 
-Faster R-CNN COCO 权重来自 torchvision/COCO，需遵守对应第三方许可证。权重文件不放入 GitHub，应通过比赛表单要求的网盘链接提供。自有代码采用 MIT 许可证。
+模型权重下载地址：百度网盘 <https://pan.baidu.com/s/1Hb5KWe9dAg67CAW-lkWrpA>
+
+提取码：`iihf`
+
+网盘包包含 `fasterrcnn_resnet50_fpn_coco-258fb6c6.pth`、`fasterrcnn_detector.onnx` 和 `auto_geometry_model.npz`。其中 Faster R-CNN COCO 权重来自 torchvision/COCO，需遵守对应第三方许可证；自有代码采用 MIT 许可证。权重文件不放入 GitHub，运行前请从上述链接下载并按“运行”部分的参数指定路径。
