@@ -2,6 +2,11 @@
 
 2026 VLP 挑战赛参赛作品。
 
+团队：算法之颠  
+负责人：王魏魏  
+参赛赛道：专项命题挑战赛道 A（VLSOT）  
+代码仓库：https://github.com/1339400321/algorithm-peak-vlsot-2026
+
 本仓库实现赛道 A：输入单目 RGB 视频和自然语言目标描述，自动选择目标车辆，并输出三维位置轨迹、目标尺寸和置信度。
 
 ## 方法
@@ -30,7 +35,7 @@ python auto_infer.py `
 
 ## 输出
 
-输出目录包含 `automatic_result.zip`、`prediction.json`、`run_manifest.json` 和预览图。平台附件要求的结果 JSON 为 `prediction.json`；此前平台页面使用的 TXT 压缩包由 `automatic_result.zip` 提供。
+输出目录包含 `automatic_result.zip`、`prediction.json`、`run_manifest.json` 和预览图。请以比赛平台提交页面显示的当前格式要求为准；正式平台验证的 V5 结果包单独保存在项目交付目录中。
 
 ## 验证
 

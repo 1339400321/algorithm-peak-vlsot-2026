@@ -145,7 +145,7 @@ def main():
                     ImageDraw.Draw(image).rectangle(selected["box"], outline="#16c97d", width=9)
                 image.thumbnail((800, 450))
                 image.save(visual_dir / f"{video}_{frame:02d}.jpg", quality=88)
-        result_lines[f"result/{video}_pred_box0_.txt"] = "\n".join(lines) + "\n"
+        result_lines[f"result/{video}.txt"] = "\n".join(lines) + "\n"
         groups.append({"video_id": video, "track_id_from_input": record["track_id"],
                        "frames": 30, "detected_frames": sum(box is not None for box in boxes),
                        "selected_boxes": boxes})
